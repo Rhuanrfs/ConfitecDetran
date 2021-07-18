@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfitecDetran.Model", "ConfitecDetran.Model\ConfitecDetran.Model.csproj", "{DE2CCED3-68A1-43D9-8976-A22B04EBC99F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfitecDetran.Repository", "ConfitecDetran.Repository\ConfitecDetran.Repository.csproj", "{D59D8032-CC87-4BC9-A5A0-1B5F5340A227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfitecDetran.Service", "ConfitecDetran.Service\ConfitecDetran.Service.csproj", "{729FDFC3-5216-43FB-8C8F-5ACAF4648C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfitecDetran.Api", "ConfitecDetran.Api\ConfitecDetran.Api.csproj", "{0389A3BB-1336-4AB2-ACF5-20492C75922F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfitecDetran.Web", "ConfitecDetran.Web\ConfitecDetran.Web.csproj", "{035C0CFB-EACC-4E42-ABE1-C4C7029CEBD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A6E600D1-6D15-47D2-8497-5118BCE10D80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4418BD5B-96D9-4669-B2B1-F6EEFA8FFB3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE2CCED3-68A1-43D9-8976-A22B04EBC99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2CCED3-68A1-43D9-8976-A22B04EBC99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2CCED3-68A1-43D9-8976-A22B04EBC99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2CCED3-68A1-43D9-8976-A22B04EBC99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59D8032-CC87-4BC9-A5A0-1B5F5340A227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59D8032-CC87-4BC9-A5A0-1B5F5340A227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59D8032-CC87-4BC9-A5A0-1B5F5340A227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59D8032-CC87-4BC9-A5A0-1B5F5340A227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729FDFC3-5216-43FB-8C8F-5ACAF4648C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729FDFC3-5216-43FB-8C8F-5ACAF4648C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729FDFC3-5216-43FB-8C8F-5ACAF4648C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729FDFC3-5216-43FB-8C8F-5ACAF4648C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0389A3BB-1336-4AB2-ACF5-20492C75922F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0389A3BB-1336-4AB2-ACF5-20492C75922F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0389A3BB-1336-4AB2-ACF5-20492C75922F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0389A3BB-1336-4AB2-ACF5-20492C75922F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035C0CFB-EACC-4E42-ABE1-C4C7029CEBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035C0CFB-EACC-4E42-ABE1-C4C7029CEBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035C0CFB-EACC-4E42-ABE1-C4C7029CEBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035C0CFB-EACC-4E42-ABE1-C4C7029CEBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE2CCED3-68A1-43D9-8976-A22B04EBC99F} = {4418BD5B-96D9-4669-B2B1-F6EEFA8FFB3A}
+		{D59D8032-CC87-4BC9-A5A0-1B5F5340A227} = {4418BD5B-96D9-4669-B2B1-F6EEFA8FFB3A}
+		{729FDFC3-5216-43FB-8C8F-5ACAF4648C19} = {4418BD5B-96D9-4669-B2B1-F6EEFA8FFB3A}
+		{0389A3BB-1336-4AB2-ACF5-20492C75922F} = {A6E600D1-6D15-47D2-8497-5118BCE10D80}
+		{035C0CFB-EACC-4E42-ABE1-C4C7029CEBD9} = {A6E600D1-6D15-47D2-8497-5118BCE10D80}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9666A5B-0129-46BD-9CB3-EA421BEA24DD}
+	EndGlobalSection
+EndGlobal

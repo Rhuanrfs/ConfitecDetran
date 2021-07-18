@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ConfitecDetran.Api/bin/
+/ConfitecDetran.Api/obj/
+/ConfitecDetran.Model/bin/
+/ConfitecDetran.Model/obj/
+/ConfitecDetran.Repository/bin/
+/ConfitecDetran.Repository/obj/
+/ConfitecDetran.Service/bin/
+/ConfitecDetran.Service/obj/
+/ConfitecDetran.Web/bin/
+/ConfitecDetran.Web/obj/
