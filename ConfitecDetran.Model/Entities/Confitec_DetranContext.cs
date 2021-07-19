@@ -159,6 +159,11 @@ namespace ConfitecDetran.Model.Entities
                     .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
+
+                entity.Property(e => e.Placa)
+                    .IsRequired()
+                    .HasMaxLength(7)
+                    .IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

@@ -1,3 +1,5 @@
+using ConfitecDetran.Service.IService;
+using ConfitecDetran.Service.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +28,13 @@ namespace ConfitecDetran.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            #region Injeção das Interfaces
+            services.AddScoped<ICondutorService, CondutorService>();
+            services.AddScoped<ITransferenciaService, TransferenciaService>();
+            services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<IVeiculoService, VeiculoService>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
